@@ -1,0 +1,217 @@
+{
+  "surgeries": [
+    {
+      "id": "Small_1",
+      "name": "Small_1",
+      "specialty": "General",
+      "mu": 65,
+      "sigma": 19,
+      "mu_sigma": {
+        "OR1|Doctor_1": {
+          "mu": 64.0,
+          "sigma": 18.75
+        },
+        "OR1|Doctor_2": {
+          "mu": 66.0,
+          "sigma": 19.25
+        },
+        "OR1|Doctor_3": {
+          "mu": 68.0,
+          "sigma": 19.75
+        },
+        "OR2|Doctor_1": {
+          "mu": 65.0,
+          "sigma": 18.75
+        },
+        "OR2|Doctor_2": {
+          "mu": 67.0,
+          "sigma": 19.25
+        },
+        "OR2|Doctor_3": {
+          "mu": 69.0,
+          "sigma": 19.75
+        }
+      }
+    },
+    {
+      "id": "Medium_1",
+      "name": "Medium_1",
+      "specialty": "General",
+      "mu": 158,
+      "sigma": 41.5,
+      "mu_sigma": {
+        "OR1|Doctor_1": {
+          "mu": 156.5,
+          "sigma": 41.0
+        },
+        "OR1|Doctor_2": {
+          "mu": 159.5,
+          "sigma": 42.0
+        },
+        "OR1|Doctor_3": {
+          "mu": 162.5,
+          "sigma": 43.0
+        },
+        "OR2|Doctor_1": {
+          "mu": 158.0,
+          "sigma": 41.0
+        },
+        "OR2|Doctor_2": {
+          "mu": 161.0,
+          "sigma": 42.0
+        },
+        "OR2|Doctor_3": {
+          "mu": 164.0,
+          "sigma": 43.0
+        }
+      }
+    },
+    {
+      "id": "Large_1",
+      "name": "Large_1",
+      "specialty": "General",
+      "mu": 291,
+      "sigma": 67.5,
+      "mu_sigma": {
+        "OR1|Doctor_1": {
+          "mu": 289.0,
+          "sigma": 66.75
+        },
+        "OR1|Doctor_2": {
+          "mu": 293.0,
+          "sigma": 68.25
+        },
+        "OR1|Doctor_3": {
+          "mu": 297.0,
+          "sigma": 69.75
+        },
+        "OR2|Doctor_1": {
+          "mu": 291.0,
+          "sigma": 66.75
+        },
+        "OR2|Doctor_2": {
+          "mu": 295.0,
+          "sigma": 68.25
+        },
+        "OR2|Doctor_3": {
+          "mu": 299.0,
+          "sigma": 69.75
+        }
+      }
+    },
+    {
+      "id": "Large_2",
+      "name": "Large_2",
+      "specialty": "General",
+      "mu": 302,
+      "sigma": 70.0,
+      "mu_sigma": {
+        "OR1|Doctor_1": {
+          "mu": 300.0,
+          "sigma": 69.25
+        },
+        "OR1|Doctor_2": {
+          "mu": 304.0,
+          "sigma": 70.75
+        },
+        "OR1|Doctor_3": {
+          "mu": 308.0,
+          "sigma": 72.25
+        },
+        "OR2|Doctor_1": {
+          "mu": 302.0,
+          "sigma": 69.25
+        },
+        "OR2|Doctor_2": {
+          "mu": 306.0,
+          "sigma": 70.75
+        },
+        "OR2|Doctor_3": {
+          "mu": 310.0,
+          "sigma": 72.25
+        }
+      }
+    },
+    {
+      "id": "Large_3",
+      "name": "Large_3",
+      "specialty": "General",
+      "mu": 313,
+      "sigma": 72.5,
+      "mu_sigma": {
+        "OR1|Doctor_1": {
+          "mu": 311.0,
+          "sigma": 71.75
+        },
+        "OR1|Doctor_2": {
+          "mu": 315.0,
+          "sigma": 73.25
+        },
+        "OR1|Doctor_3": {
+          "mu": 319.0,
+          "sigma": 74.75
+        },
+        "OR2|Doctor_1": {
+          "mu": 313.0,
+          "sigma": 71.75
+        },
+        "OR2|Doctor_2": {
+          "mu": 317.0,
+          "sigma": 73.25
+        },
+        "OR2|Doctor_3": {
+          "mu": 321.0,
+          "sigma": 74.75
+        }
+      }
+    }
+  ],
+  "days": [
+    {
+      "id": "Monday",
+      "H": 480,
+      "name": "Monday"
+    },
+    {
+      "id": "Tuesday",
+      "H": 480,
+      "name": "Tuesday"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "OR1",
+      "name": "OR1"
+    },
+    {
+      "id": "OR2",
+      "name": "OR2"
+    }
+  ],
+  "doctors": [
+    {
+      "id": "Doctor_1",
+      "name": "Doctor_1",
+      "daily_capacity": {
+        "Monday": 432,
+        "Tuesday": 432
+      }
+    },
+    {
+      "id": "Doctor_2",
+      "name": "Doctor_2",
+      "daily_capacity": {
+        "Monday": 432,
+        "Tuesday": 432
+      }
+    },
+    {
+      "id": "Doctor_3",
+      "name": "Doctor_3",
+      "daily_capacity": {
+        "Monday": 432,
+        "Tuesday": 432
+      }
+    }
+  ]
+}

@@ -1,0 +1,928 @@
+{
+  "surgeries": [
+    {
+      "id": "Small_1",
+      "name": "Small_1",
+      "specialty": "General",
+      "mu": 65,
+      "sigma": 19,
+      "mu_sigma": {
+        "OR1|Doctor_1": {
+          "mu": 62.5,
+          "sigma": 18.5
+        },
+        "OR1|Doctor_2": {
+          "mu": 64.5,
+          "sigma": 19.0
+        },
+        "OR1|Doctor_3": {
+          "mu": 66.5,
+          "sigma": 19.5
+        },
+        "OR1|Doctor_4": {
+          "mu": 68.5,
+          "sigma": 20.0
+        },
+        "OR2|Doctor_1": {
+          "mu": 63.5,
+          "sigma": 18.5
+        },
+        "OR2|Doctor_2": {
+          "mu": 65.5,
+          "sigma": 19.0
+        },
+        "OR2|Doctor_3": {
+          "mu": 67.5,
+          "sigma": 19.5
+        },
+        "OR2|Doctor_4": {
+          "mu": 69.5,
+          "sigma": 20.0
+        },
+        "OR3|Doctor_1": {
+          "mu": 64.5,
+          "sigma": 18.5
+        },
+        "OR3|Doctor_2": {
+          "mu": 66.5,
+          "sigma": 19.0
+        },
+        "OR3|Doctor_3": {
+          "mu": 68.5,
+          "sigma": 19.5
+        },
+        "OR3|Doctor_4": {
+          "mu": 70.5,
+          "sigma": 20.0
+        }
+      }
+    },
+    {
+      "id": "Small_2",
+      "name": "Small_2",
+      "specialty": "General",
+      "mu": 70,
+      "sigma": 20,
+      "mu_sigma": {
+        "OR1|Doctor_1": {
+          "mu": 67.5,
+          "sigma": 19.5
+        },
+        "OR1|Doctor_2": {
+          "mu": 69.5,
+          "sigma": 20.0
+        },
+        "OR1|Doctor_3": {
+          "mu": 71.5,
+          "sigma": 20.5
+        },
+        "OR1|Doctor_4": {
+          "mu": 73.5,
+          "sigma": 21.0
+        },
+        "OR2|Doctor_1": {
+          "mu": 68.5,
+          "sigma": 19.5
+        },
+        "OR2|Doctor_2": {
+          "mu": 70.5,
+          "sigma": 20.0
+        },
+        "OR2|Doctor_3": {
+          "mu": 72.5,
+          "sigma": 20.5
+        },
+        "OR2|Doctor_4": {
+          "mu": 74.5,
+          "sigma": 21.0
+        },
+        "OR3|Doctor_1": {
+          "mu": 69.5,
+          "sigma": 19.5
+        },
+        "OR3|Doctor_2": {
+          "mu": 71.5,
+          "sigma": 20.0
+        },
+        "OR3|Doctor_3": {
+          "mu": 73.5,
+          "sigma": 20.5
+        },
+        "OR3|Doctor_4": {
+          "mu": 75.5,
+          "sigma": 21.0
+        }
+      }
+    },
+    {
+      "id": "Small_3",
+      "name": "Small_3",
+      "specialty": "General",
+      "mu": 75,
+      "sigma": 21,
+      "mu_sigma": {
+        "OR1|Doctor_1": {
+          "mu": 72.5,
+          "sigma": 20.5
+        },
+        "OR1|Doctor_2": {
+          "mu": 74.5,
+          "sigma": 21.0
+        },
+        "OR1|Doctor_3": {
+          "mu": 76.5,
+          "sigma": 21.5
+        },
+        "OR1|Doctor_4": {
+          "mu": 78.5,
+          "sigma": 22.0
+        },
+        "OR2|Doctor_1": {
+          "mu": 73.5,
+          "sigma": 20.5
+        },
+        "OR2|Doctor_2": {
+          "mu": 75.5,
+          "sigma": 21.0
+        },
+        "OR2|Doctor_3": {
+          "mu": 77.5,
+          "sigma": 21.5
+        },
+        "OR2|Doctor_4": {
+          "mu": 79.5,
+          "sigma": 22.0
+        },
+        "OR3|Doctor_1": {
+          "mu": 74.5,
+          "sigma": 20.5
+        },
+        "OR3|Doctor_2": {
+          "mu": 76.5,
+          "sigma": 21.0
+        },
+        "OR3|Doctor_3": {
+          "mu": 78.5,
+          "sigma": 21.5
+        },
+        "OR3|Doctor_4": {
+          "mu": 80.5,
+          "sigma": 22.0
+        }
+      }
+    },
+    {
+      "id": "Small_4",
+      "name": "Small_4",
+      "specialty": "General",
+      "mu": 80,
+      "sigma": 22,
+      "mu_sigma": {
+        "OR1|Doctor_1": {
+          "mu": 77.5,
+          "sigma": 21.5
+        },
+        "OR1|Doctor_2": {
+          "mu": 79.5,
+          "sigma": 22.0
+        },
+        "OR1|Doctor_3": {
+          "mu": 81.5,
+          "sigma": 22.5
+        },
+        "OR1|Doctor_4": {
+          "mu": 83.5,
+          "sigma": 23.0
+        },
+        "OR2|Doctor_1": {
+          "mu": 78.5,
+          "sigma": 21.5
+        },
+        "OR2|Doctor_2": {
+          "mu": 80.5,
+          "sigma": 22.0
+        },
+        "OR2|Doctor_3": {
+          "mu": 82.5,
+          "sigma": 22.5
+        },
+        "OR2|Doctor_4": {
+          "mu": 84.5,
+          "sigma": 23.0
+        },
+        "OR3|Doctor_1": {
+          "mu": 79.5,
+          "sigma": 21.5
+        },
+        "OR3|Doctor_2": {
+          "mu": 81.5,
+          "sigma": 22.0
+        },
+        "OR3|Doctor_3": {
+          "mu": 83.5,
+          "sigma": 22.5
+        },
+        "OR3|Doctor_4": {
+          "mu": 85.5,
+          "sigma": 23.0
+        }
+      }
+    },
+    {
+      "id": "Small_5",
+      "name": "Small_5",
+      "specialty": "General",
+      "mu": 85,
+      "sigma": 23,
+      "mu_sigma": {
+        "OR1|Doctor_1": {
+          "mu": 82.5,
+          "sigma": 22.5
+        },
+        "OR1|Doctor_2": {
+          "mu": 84.5,
+          "sigma": 23.0
+        },
+        "OR1|Doctor_3": {
+          "mu": 86.5,
+          "sigma": 23.5
+        },
+        "OR1|Doctor_4": {
+          "mu": 88.5,
+          "sigma": 24.0
+        },
+        "OR2|Doctor_1": {
+          "mu": 83.5,
+          "sigma": 22.5
+        },
+        "OR2|Doctor_2": {
+          "mu": 85.5,
+          "sigma": 23.0
+        },
+        "OR2|Doctor_3": {
+          "mu": 87.5,
+          "sigma": 23.5
+        },
+        "OR2|Doctor_4": {
+          "mu": 89.5,
+          "sigma": 24.0
+        },
+        "OR3|Doctor_1": {
+          "mu": 84.5,
+          "sigma": 22.5
+        },
+        "OR3|Doctor_2": {
+          "mu": 86.5,
+          "sigma": 23.0
+        },
+        "OR3|Doctor_3": {
+          "mu": 88.5,
+          "sigma": 23.5
+        },
+        "OR3|Doctor_4": {
+          "mu": 90.5,
+          "sigma": 24.0
+        }
+      }
+    },
+    {
+      "id": "Medium_1",
+      "name": "Medium_1",
+      "specialty": "General",
+      "mu": 158,
+      "sigma": 41.5,
+      "mu_sigma": {
+        "OR1|Doctor_1": {
+          "mu": 154.25,
+          "sigma": 40.5
+        },
+        "OR1|Doctor_2": {
+          "mu": 157.25,
+          "sigma": 41.5
+        },
+        "OR1|Doctor_3": {
+          "mu": 160.25,
+          "sigma": 42.5
+        },
+        "OR1|Doctor_4": {
+          "mu": 163.25,
+          "sigma": 43.5
+        },
+        "OR2|Doctor_1": {
+          "mu": 155.75,
+          "sigma": 40.5
+        },
+        "OR2|Doctor_2": {
+          "mu": 158.75,
+          "sigma": 41.5
+        },
+        "OR2|Doctor_3": {
+          "mu": 161.75,
+          "sigma": 42.5
+        },
+        "OR2|Doctor_4": {
+          "mu": 164.75,
+          "sigma": 43.5
+        },
+        "OR3|Doctor_1": {
+          "mu": 157.25,
+          "sigma": 40.5
+        },
+        "OR3|Doctor_2": {
+          "mu": 160.25,
+          "sigma": 41.5
+        },
+        "OR3|Doctor_3": {
+          "mu": 163.25,
+          "sigma": 42.5
+        },
+        "OR3|Doctor_4": {
+          "mu": 166.25,
+          "sigma": 43.5
+        }
+      }
+    },
+    {
+      "id": "Medium_2",
+      "name": "Medium_2",
+      "specialty": "General",
+      "mu": 166,
+      "sigma": 43.0,
+      "mu_sigma": {
+        "OR1|Doctor_1": {
+          "mu": 162.25,
+          "sigma": 42.0
+        },
+        "OR1|Doctor_2": {
+          "mu": 165.25,
+          "sigma": 43.0
+        },
+        "OR1|Doctor_3": {
+          "mu": 168.25,
+          "sigma": 44.0
+        },
+        "OR1|Doctor_4": {
+          "mu": 171.25,
+          "sigma": 45.0
+        },
+        "OR2|Doctor_1": {
+          "mu": 163.75,
+          "sigma": 42.0
+        },
+        "OR2|Doctor_2": {
+          "mu": 166.75,
+          "sigma": 43.0
+        },
+        "OR2|Doctor_3": {
+          "mu": 169.75,
+          "sigma": 44.0
+        },
+        "OR2|Doctor_4": {
+          "mu": 172.75,
+          "sigma": 45.0
+        },
+        "OR3|Doctor_1": {
+          "mu": 165.25,
+          "sigma": 42.0
+        },
+        "OR3|Doctor_2": {
+          "mu": 168.25,
+          "sigma": 43.0
+        },
+        "OR3|Doctor_3": {
+          "mu": 171.25,
+          "sigma": 44.0
+        },
+        "OR3|Doctor_4": {
+          "mu": 174.25,
+          "sigma": 45.0
+        }
+      }
+    },
+    {
+      "id": "Medium_3",
+      "name": "Medium_3",
+      "specialty": "General",
+      "mu": 174,
+      "sigma": 44.5,
+      "mu_sigma": {
+        "OR1|Doctor_1": {
+          "mu": 170.25,
+          "sigma": 43.5
+        },
+        "OR1|Doctor_2": {
+          "mu": 173.25,
+          "sigma": 44.5
+        },
+        "OR1|Doctor_3": {
+          "mu": 176.25,
+          "sigma": 45.5
+        },
+        "OR1|Doctor_4": {
+          "mu": 179.25,
+          "sigma": 46.5
+        },
+        "OR2|Doctor_1": {
+          "mu": 171.75,
+          "sigma": 43.5
+        },
+        "OR2|Doctor_2": {
+          "mu": 174.75,
+          "sigma": 44.5
+        },
+        "OR2|Doctor_3": {
+          "mu": 177.75,
+          "sigma": 45.5
+        },
+        "OR2|Doctor_4": {
+          "mu": 180.75,
+          "sigma": 46.5
+        },
+        "OR3|Doctor_1": {
+          "mu": 173.25,
+          "sigma": 43.5
+        },
+        "OR3|Doctor_2": {
+          "mu": 176.25,
+          "sigma": 44.5
+        },
+        "OR3|Doctor_3": {
+          "mu": 179.25,
+          "sigma": 45.5
+        },
+        "OR3|Doctor_4": {
+          "mu": 182.25,
+          "sigma": 46.5
+        }
+      }
+    },
+    {
+      "id": "Medium_4",
+      "name": "Medium_4",
+      "specialty": "General",
+      "mu": 182,
+      "sigma": 46.0,
+      "mu_sigma": {
+        "OR1|Doctor_1": {
+          "mu": 178.25,
+          "sigma": 45.0
+        },
+        "OR1|Doctor_2": {
+          "mu": 181.25,
+          "sigma": 46.0
+        },
+        "OR1|Doctor_3": {
+          "mu": 184.25,
+          "sigma": 47.0
+        },
+        "OR1|Doctor_4": {
+          "mu": 187.25,
+          "sigma": 48.0
+        },
+        "OR2|Doctor_1": {
+          "mu": 179.75,
+          "sigma": 45.0
+        },
+        "OR2|Doctor_2": {
+          "mu": 182.75,
+          "sigma": 46.0
+        },
+        "OR2|Doctor_3": {
+          "mu": 185.75,
+          "sigma": 47.0
+        },
+        "OR2|Doctor_4": {
+          "mu": 188.75,
+          "sigma": 48.0
+        },
+        "OR3|Doctor_1": {
+          "mu": 181.25,
+          "sigma": 45.0
+        },
+        "OR3|Doctor_2": {
+          "mu": 184.25,
+          "sigma": 46.0
+        },
+        "OR3|Doctor_3": {
+          "mu": 187.25,
+          "sigma": 47.0
+        },
+        "OR3|Doctor_4": {
+          "mu": 190.25,
+          "sigma": 48.0
+        }
+      }
+    },
+    {
+      "id": "Medium_5",
+      "name": "Medium_5",
+      "specialty": "General",
+      "mu": 190,
+      "sigma": 47.5,
+      "mu_sigma": {
+        "OR1|Doctor_1": {
+          "mu": 186.25,
+          "sigma": 46.5
+        },
+        "OR1|Doctor_2": {
+          "mu": 189.25,
+          "sigma": 47.5
+        },
+        "OR1|Doctor_3": {
+          "mu": 192.25,
+          "sigma": 48.5
+        },
+        "OR1|Doctor_4": {
+          "mu": 195.25,
+          "sigma": 49.5
+        },
+        "OR2|Doctor_1": {
+          "mu": 187.75,
+          "sigma": 46.5
+        },
+        "OR2|Doctor_2": {
+          "mu": 190.75,
+          "sigma": 47.5
+        },
+        "OR2|Doctor_3": {
+          "mu": 193.75,
+          "sigma": 48.5
+        },
+        "OR2|Doctor_4": {
+          "mu": 196.75,
+          "sigma": 49.5
+        },
+        "OR3|Doctor_1": {
+          "mu": 189.25,
+          "sigma": 46.5
+        },
+        "OR3|Doctor_2": {
+          "mu": 192.25,
+          "sigma": 47.5
+        },
+        "OR3|Doctor_3": {
+          "mu": 195.25,
+          "sigma": 48.5
+        },
+        "OR3|Doctor_4": {
+          "mu": 198.25,
+          "sigma": 49.5
+        }
+      }
+    },
+    {
+      "id": "Large_1",
+      "name": "Large_1",
+      "specialty": "General",
+      "mu": 291,
+      "sigma": 67.5,
+      "mu_sigma": {
+        "OR1|Doctor_1": {
+          "mu": 286.0,
+          "sigma": 66.0
+        },
+        "OR1|Doctor_2": {
+          "mu": 290.0,
+          "sigma": 67.5
+        },
+        "OR1|Doctor_3": {
+          "mu": 294.0,
+          "sigma": 69.0
+        },
+        "OR1|Doctor_4": {
+          "mu": 298.0,
+          "sigma": 70.5
+        },
+        "OR2|Doctor_1": {
+          "mu": 288.0,
+          "sigma": 66.0
+        },
+        "OR2|Doctor_2": {
+          "mu": 292.0,
+          "sigma": 67.5
+        },
+        "OR2|Doctor_3": {
+          "mu": 296.0,
+          "sigma": 69.0
+        },
+        "OR2|Doctor_4": {
+          "mu": 300.0,
+          "sigma": 70.5
+        },
+        "OR3|Doctor_1": {
+          "mu": 290.0,
+          "sigma": 66.0
+        },
+        "OR3|Doctor_2": {
+          "mu": 294.0,
+          "sigma": 67.5
+        },
+        "OR3|Doctor_3": {
+          "mu": 298.0,
+          "sigma": 69.0
+        },
+        "OR3|Doctor_4": {
+          "mu": 302.0,
+          "sigma": 70.5
+        }
+      }
+    },
+    {
+      "id": "Large_2",
+      "name": "Large_2",
+      "specialty": "General",
+      "mu": 302,
+      "sigma": 70.0,
+      "mu_sigma": {
+        "OR1|Doctor_1": {
+          "mu": 297.0,
+          "sigma": 68.5
+        },
+        "OR1|Doctor_2": {
+          "mu": 301.0,
+          "sigma": 70.0
+        },
+        "OR1|Doctor_3": {
+          "mu": 305.0,
+          "sigma": 71.5
+        },
+        "OR1|Doctor_4": {
+          "mu": 309.0,
+          "sigma": 73.0
+        },
+        "OR2|Doctor_1": {
+          "mu": 299.0,
+          "sigma": 68.5
+        },
+        "OR2|Doctor_2": {
+          "mu": 303.0,
+          "sigma": 70.0
+        },
+        "OR2|Doctor_3": {
+          "mu": 307.0,
+          "sigma": 71.5
+        },
+        "OR2|Doctor_4": {
+          "mu": 311.0,
+          "sigma": 73.0
+        },
+        "OR3|Doctor_1": {
+          "mu": 301.0,
+          "sigma": 68.5
+        },
+        "OR3|Doctor_2": {
+          "mu": 305.0,
+          "sigma": 70.0
+        },
+        "OR3|Doctor_3": {
+          "mu": 309.0,
+          "sigma": 71.5
+        },
+        "OR3|Doctor_4": {
+          "mu": 313.0,
+          "sigma": 73.0
+        }
+      }
+    },
+    {
+      "id": "Large_3",
+      "name": "Large_3",
+      "specialty": "General",
+      "mu": 313,
+      "sigma": 72.5,
+      "mu_sigma": {
+        "OR1|Doctor_1": {
+          "mu": 308.0,
+          "sigma": 71.0
+        },
+        "OR1|Doctor_2": {
+          "mu": 312.0,
+          "sigma": 72.5
+        },
+        "OR1|Doctor_3": {
+          "mu": 316.0,
+          "sigma": 74.0
+        },
+        "OR1|Doctor_4": {
+          "mu": 320.0,
+          "sigma": 75.5
+        },
+        "OR2|Doctor_1": {
+          "mu": 310.0,
+          "sigma": 71.0
+        },
+        "OR2|Doctor_2": {
+          "mu": 314.0,
+          "sigma": 72.5
+        },
+        "OR2|Doctor_3": {
+          "mu": 318.0,
+          "sigma": 74.0
+        },
+        "OR2|Doctor_4": {
+          "mu": 322.0,
+          "sigma": 75.5
+        },
+        "OR3|Doctor_1": {
+          "mu": 312.0,
+          "sigma": 71.0
+        },
+        "OR3|Doctor_2": {
+          "mu": 316.0,
+          "sigma": 72.5
+        },
+        "OR3|Doctor_3": {
+          "mu": 320.0,
+          "sigma": 74.0
+        },
+        "OR3|Doctor_4": {
+          "mu": 324.0,
+          "sigma": 75.5
+        }
+      }
+    },
+    {
+      "id": "Large_4",
+      "name": "Large_4",
+      "specialty": "General",
+      "mu": 324,
+      "sigma": 75.0,
+      "mu_sigma": {
+        "OR1|Doctor_1": {
+          "mu": 319.0,
+          "sigma": 73.5
+        },
+        "OR1|Doctor_2": {
+          "mu": 323.0,
+          "sigma": 75.0
+        },
+        "OR1|Doctor_3": {
+          "mu": 327.0,
+          "sigma": 76.5
+        },
+        "OR1|Doctor_4": {
+          "mu": 331.0,
+          "sigma": 78.0
+        },
+        "OR2|Doctor_1": {
+          "mu": 321.0,
+          "sigma": 73.5
+        },
+        "OR2|Doctor_2": {
+          "mu": 325.0,
+          "sigma": 75.0
+        },
+        "OR2|Doctor_3": {
+          "mu": 329.0,
+          "sigma": 76.5
+        },
+        "OR2|Doctor_4": {
+          "mu": 333.0,
+          "sigma": 78.0
+        },
+        "OR3|Doctor_1": {
+          "mu": 323.0,
+          "sigma": 73.5
+        },
+        "OR3|Doctor_2": {
+          "mu": 327.0,
+          "sigma": 75.0
+        },
+        "OR3|Doctor_3": {
+          "mu": 331.0,
+          "sigma": 76.5
+        },
+        "OR3|Doctor_4": {
+          "mu": 335.0,
+          "sigma": 78.0
+        }
+      }
+    },
+    {
+      "id": "Large_5",
+      "name": "Large_5",
+      "specialty": "General",
+      "mu": 335,
+      "sigma": 77.5,
+      "mu_sigma": {
+        "OR1|Doctor_1": {
+          "mu": 330.0,
+          "sigma": 76.0
+        },
+        "OR1|Doctor_2": {
+          "mu": 334.0,
+          "sigma": 77.5
+        },
+        "OR1|Doctor_3": {
+          "mu": 338.0,
+          "sigma": 79.0
+        },
+        "OR1|Doctor_4": {
+          "mu": 342.0,
+          "sigma": 80.5
+        },
+        "OR2|Doctor_1": {
+          "mu": 332.0,
+          "sigma": 76.0
+        },
+        "OR2|Doctor_2": {
+          "mu": 336.0,
+          "sigma": 77.5
+        },
+        "OR2|Doctor_3": {
+          "mu": 340.0,
+          "sigma": 79.0
+        },
+        "OR2|Doctor_4": {
+          "mu": 344.0,
+          "sigma": 80.5
+        },
+        "OR3|Doctor_1": {
+          "mu": 334.0,
+          "sigma": 76.0
+        },
+        "OR3|Doctor_2": {
+          "mu": 338.0,
+          "sigma": 77.5
+        },
+        "OR3|Doctor_3": {
+          "mu": 342.0,
+          "sigma": 79.0
+        },
+        "OR3|Doctor_4": {
+          "mu": 346.0,
+          "sigma": 80.5
+        }
+      }
+    }
+  ],
+  "days": [
+    {
+      "id": "Monday",
+      "H": 480,
+      "name": "Monday"
+    },
+    {
+      "id": "Tuesday",
+      "H": 480,
+      "name": "Tuesday"
+    },
+    {
+      "id": "Wednesday",
+      "H": 480,
+      "name": "Wednesday"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "OR1",
+      "name": "OR1"
+    },
+    {
+      "id": "OR2",
+      "name": "OR2"
+    },
+    {
+      "id": "OR3",
+      "name": "OR3"
+    }
+  ],
+  "doctors": [
+    {
+      "id": "Doctor_1",
+      "name": "Doctor_1",
+      "daily_capacity": {
+        "Monday": 432,
+        "Tuesday": 432,
+        "Wednesday": 432
+      }
+    },
+    {
+      "id": "Doctor_2",
+      "name": "Doctor_2",
+      "daily_capacity": {
+        "Monday": 432,
+        "Tuesday": 432,
+        "Wednesday": 432
+      }
+    },
+    {
+      "id": "Doctor_3",
+      "name": "Doctor_3",
+      "daily_capacity": {
+        "Monday": 432,
+        "Tuesday": 432,
+        "Wednesday": 432
+      }
+    },
+    {
+      "id": "Doctor_4",
+      "name": "Doctor_4",
+      "daily_capacity": {
+        "Monday": 408,
+        "Tuesday": 408,
+        "Wednesday": 408
+      }
+    }
+  ]
+}
